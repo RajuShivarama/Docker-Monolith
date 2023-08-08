@@ -76,7 +76,7 @@ app.delete('/goals/:id', async (req, res) => {
 });
 
 mongoose.connect(
-  'mongodb+srv://techadmin:1pmrrG9fsWR67Dv7@instalimb.pou4w7w.mongodb.net/goals-dev',
+  '',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
